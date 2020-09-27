@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Nova | Bootstrap app landing</title>
+    <title>Deckle | Task Sharing App</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -19,7 +19,7 @@
     <!-- Device Mockup-->
     <link rel="stylesheet" href="css/device-mockups.css">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/style.green.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
@@ -50,11 +50,14 @@
       <div class="container">
         <div class="row py-5">
           <div class="col-lg-5 py-5">
-            <h1 class="font-weight-bold">Download your best app landing</h1>
-            <p class="my-4 text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+            <h1 class="font-weight-bold">The task sharing app to meet people just like you.</h1>
+            <p class="my-4 text-muted">
+              At Deckle we focus on DO. Whether you are a student looking to meet people from your subject, or an online learner looking to find a community,
+              this app will let you find people doing similar tasks as you and make incredible connections.
+            </p>
             <ul class="list-inline mb-0">
-              <li class="list-inline-item mb-2 mb-lg-0"><a class="btn btn-primary btn-lg px-4" href="#"> <i class="fab fa-google-play mr-3"></i>Google Play</a></li>
-              <li class="list-inline-item"><a class="btn btn-primary btn-lg px-4" href="#"> <i class="fab fa-app-store mr-3"></i>App Store</a></li>
+<!--              <li class="list-inline-item mb-2 mb-lg-0"><a class="btn btn-primary btn-lg px-4" href="#"> <i class="fab fa-google-play mr-3"></i>Google Play</a></li>-->
+              <li class="list-inline-item"><a class="btn btn-primary btn-lg px-4" href="https://apps.apple.com/us/app/deckle/id1508727209"> <i class="fab fa-app-store mr-3"></i>App Store</a></li>
             </ul>
           </div>
           <div class="col-lg-6 ml-auto">
@@ -285,7 +288,7 @@
           </div>
         </div>
       </div>
-      <div class="copyrights">       
+      <div class="copyrights">
         <div class="container text-center py-4">
           <p class="mb-0 text-muted text-sm">&copy; 2019, Your company. Template by <a href="https://bootstraptemple.com" class="text-reset">Bootstrap Temple</a>.</p>
         </div>
@@ -299,12 +302,12 @@
     <script src="js/front.js"></script>
     <script>
       // ------------------------------------------------------- //
-      //   Inject SVG Sprite - 
-      //   see more here 
+      //   Inject SVG Sprite -
+      //   see more here
       //   https://css-tricks.com/ajaxing-svg-sprite/
       // ------------------------------------------------------ //
       function injectSvgSprite(path) {
-      
+
           var ajax = new XMLHttpRequest();
           ajax.open("GET", path, true);
           ajax.send();
@@ -315,12 +318,12 @@
           document.body.insertBefore(div, document.body.childNodes[0]);
           }
       }
-      // this is set to BootstrapTemple website as you cannot 
+      // this is set to BootstrapTemple website as you cannot
       // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
       // while using file:// protocol
       // pls don't forget to change to your domain :)
-      injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg'); 
-      
+      injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg');
+
     </script>
     <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
